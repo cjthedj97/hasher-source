@@ -1,4 +1,4 @@
-Hasher Script
+# Hasher Script
 
 The Hasher script calculates hash checksums and provides detailed information about a specified file.
 Usage
@@ -7,9 +7,27 @@ Usage
 
 Replace <file_path> with the path to the file you want to analyze.
 
-Example
+## Instalation
 
-Let's say you want to analyze the script. You would run the Hasher script as follows:
+### Option One: (Premade package files for deb, rpm, and archlinux).
+
+Debian/Ubuntu
+`dpkg -i hasher_1.0.4_all.deb`
+
+RPM basesd systems
+`hasher-1.0.4.noarch.rpm`
+
+ArchLinux
+`pacman -U hasher-1.0.4-1-any.pkg.tar.zst`
+
+### Option Two: (manually downloading the shell script)
+
+This will be on you to figure out.
+
+
+## Example
+
+Let's say you want to analyze the script. You would run the Hasher script as follows (Assuming you used the pre made instalation package):
 
 `hasher script`
 
