@@ -13,9 +13,8 @@ Example
 
 Let's say you want to analyze the script. You would run the Hasher script as follows:
 
-bash```
-hasher script
-```
+`hasher script`
+
 The script would then provide detailed information about the file including metadata and various hash checksums.
 
 ```
