@@ -3,8 +3,6 @@ Hasher Script
 The Hasher script calculates hash checksums and provides detailed information about a specified file.
 Usage
 
-bash
-
 `hasher <file_path>`
 
 Replace <file_path> with the path to the file you want to analyze.
