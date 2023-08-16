@@ -1,0 +1,19 @@
+#!/bin/bash
+# This script will generate the most popular file hashes for filenames
+# Written by CJ Saathoff
+file=$1
+
+if [ -e "$file" ]
+then
+  date
+  printf '%.s-' {1..50} ; echo ""
+  stat "$file"
+  printf '%.s-' {1..50} ; echo ""
+  md5sum "$file"
+  shasum "$file"
+  sha256sum "$file"
+  sha512sum "$file"
+else
+    echo "File Not Found"
+
+fi
